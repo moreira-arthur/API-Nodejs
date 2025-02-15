@@ -1,0 +1,27 @@
+POST http://localhost:3333/fotos
+Content-Type: application/json
+
+{
+    "title": "Foto node 22",
+    "description": "Esse é a primeira foto",
+    "resolution" : 2160
+}
+
+### 
+
+GET http://localhost:3333/fotos
+
+
+### 
+PUT http://localhost:3333/fotos/03d0f576-b07a-44f6-9b48-05671c6a9fcf
+Content-Type: application/json
+
+{
+    "title": "Foto 02",
+    "description": "Esse é a foto 02",
+    "resolution" : 2160
+}
+
+###
+
+DELETE http://localhost:3333/fotos/116c5a28-450c-475e-bcbc-5b61e05a83eb
