@@ -115,5 +115,6 @@ server.delete('/fotos/:id', async (request, reply) => {
 
 // Inicialização do Servidor
 server.listen({
+    host: '0.0.0.0',
     port: process.env.PORT ?? 3333,
 })
